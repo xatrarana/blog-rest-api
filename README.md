@@ -8,10 +8,10 @@ This API provides endpoints for user authentication, including signup and login 
 ## Setup
 
 1. Clone the repository:
-   git clone https://github.com/your-username/user-auth-api.git
-
+   git clone https://github.com/xatrarana/blog-rest-api.git 
+   
 2. Install dependencies:
-    cd user-auth-api
+    cd blog-rest-api
     npm install
 
 3. Start the server:
@@ -70,7 +70,8 @@ Status Code	Message	Description
 404	Not Found	
 
 # API Documentation: Post Management
-    This documentation provides information about the endpoints for managing posts. These endpoints allow users to retrieve, create, update, and delete posts. Authentication is required for all operations except retrieving posts.
+
+    This documentation provides information about the endpoints for managing posts. These endpoints allow users to retrieve, create, update, and delete posts.     Authentication is required for all operations except retrieving posts.
   ### Base URL
   ````
      htpp://localhost:8080/api/e/posts 
