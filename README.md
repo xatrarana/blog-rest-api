@@ -130,14 +130,15 @@ This endpoint allows users to delete a post. this will take the post id.
     Authorization: Bearer your-auth-token
 ``````
 # API Documentation: Post Search
-     This documentation provides information about the endpoint for searching posts based on query parameters
+  This documentation provides information about the endpoint for searching posts based on query parameters
+  
     #base url : /e/search?q=[$content-to-search]
 
 # API Documentation: Feed Retrieval
 This documentation provides information about the endpoint for retrieving the feed. Authentication is required to access the feed.
-```
+
     http://localhost:8080/e/feed
-```
+
 ## Authentication
     Authentication is required to access the feed. Users need to include an authorization token in the request headers using the Bearer token scheme.
 ````
