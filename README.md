@@ -11,20 +11,20 @@ This API provides endpoints for user authentication, including signup and login 
          git clone https://github.com/xatrarana/blog-rest-api.git 
 
       2. Install dependencies:
-       ``````````
+      
           cd blog-rest-api
           npm install
-      ``````````
+      
       3. Start the server:
           npm run dev
           The server will start running on http://localhost:8080.
 
       4. make the .env file and update the info
-      `````````
+      
           DB_URL=your-database-url
           PORT=your-port-number
           SECRET_KEY=your-secret-key
-      ``````````
+     
 
 # API Endpoints
       ### Base url: http://localhost:8080/api/e/user 
